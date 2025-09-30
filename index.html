@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <script>
+      const redirects = {
+"recommendations_for_a_high_quality": "https://lvnta.com/lv_HK8aVKanGfzm1hPF8o",
+"product_request_what_are_your": "https://lvnta.com/lv_AIf1UX1KHCyiVxh77q",
+"what_shoes_do_any_of": "https://lvnta.com/lv_cWEYx1GhJyzfoaXcP1",
+"which_is_your_favorite_automatic": "https://lvnta.com/lv_OdOFL9t5mEjiop7O3I",
+"best_down_pillows_for_side": "https://lvnta.com/lv_ZG1Mwnl2CRPr93QIVD",
+"gift_ideas_for_readers_2024": "https://lvnta.com/lv_X8l2d7Kan2wvdg5W9l",
+"best_and_safest_chew_toys": "https://lvnta.com/lv_j7LVzLBYCbIiACRUmK",
+"review_i_tried_beef_tallow": "https://lvnta.com/lv_bdgMhdVlw9x6S5NcaE",
+"has_facial_taping_helped_prevent": "https://lvnta.com/lv_oMldjYcyqL1sA3JZYQ",
+"favourite_slingcrossbody_bag_youve_used": "https://lvnta.com/lv_2GfgxPtkRLfF9Azkhb",
+"sock_brand_recommendations_that_actually": "https://lvnta.com/lv_TlRDDPzAw5aDUasA41",
+"best_cost_efficient_coffee_grinder": "https://lvnta.com/lv_0aarXWDy0Cc5zLjVhC",
+"need_lightweight_not_too_lightweight": "https://lvnta.com/lv_TcFUjrwguWyzWzuapw",
+"review_ive_tried_a_ton": "https://lvnta.com/lv_U7iHVaOm64x7CMRjlF",
+"best_cat_food_recommendations": "https://lvnta.com/lv_FveebJdYe2Tf5dp8F2",
+"best_back_scratcher": "https://lvnta.com/lv_Xv6dNAn2W56qeX9Jt3",
+"montessori_toys_for_1_year": "https://lvnta.com/lv_I4jEUDnu3I2PmTC0Tf",
+"my_testing_of_the_top": "https://lvnta.com/lv_7gmyaJEgflXfNJD5CC",
+"tubing_mascara_recommendations": "https://lvnta.com/lv_tdxQdBC549YDSFWUOq",
+"best_vegetable_chopper_that_is": "https://lvnta.com/lv_X5vZpEyHeBfHlcXOC8",
+"looking_for_a_good_tote": "https://lvnta.com/lv_wWuLt7s4UsLtp9DrgM",
+"need_help_choosing_a_good": "https://lvnta.com/lv_QRfdZEB9zNo450WfEO",
+"anyone_here_own_a_panini": "https://lvnta.com/lv_Usfu1ONZbG4S85Xcgk",
+"best_waterproof_eyeliner": "https://lvnta.com/lv_oIZkhmJVdB0MSMsLOf",
+"best_ice_cream_scoop": "https://lvnta.com/lv_2r3yYqd1KLkaKSQSnr",
+"shampoo_for_extremely_hard_water": "https://lvnta.com/lv_0cjBw1UGggPdQSJuPo",
+"thoughts_on_prong_collars": "https://lvnta.com/lv_Ofd4Qf0NJK5Osq06Aj",
+"any_suggestions_for_an_actual": "https://lvnta.com/lv_guDcXJquxKcV9AgUyy",
+"toys_recommendation_for_a_10": "https://lvnta.com/lv_lsy69k6EdpdKioqSHn",
+"best_mousepad": "https://lvnta.com/lv_wylo5Wtv8RoWlD9Hii",
+"best_travel_daypack": "https://lvnta.com/lv_WAeTUJCI4MexaK8gD9",
+"best_edc_knife": "https://lvnta.com/lv_Ego9CGoyOLqKUNute6"
+      };
+
+      function getParam(name) {
+        const params = new URLSearchParams(window.location.search);
+        return params.get(name);
+      }
+
+      const key = getParam("to");
+      const url = redirects[key?.toLowerCase()];
+
+      if (url) {
+        window.location.replace(url);
+      } else {
+        document.write("<h2>Redirect not found</h2><p>Use ?to=shortname</p>");
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
